@@ -12,7 +12,7 @@ app.get('/api/name', (req, res) => {
     res.json({name: 'My name is Envoy'})
 });
 
-app.listen(4000, () => {
-    console.log('Example app listening on port 4000!');
+app.listen(8000, () => {
+    console.log('Node API app listening on port 8000!');
 });
 
