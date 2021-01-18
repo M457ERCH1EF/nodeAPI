@@ -1,6 +1,6 @@
 const fastify = require('fastify')({
     logger: {
-        level: 'trace',
+        level: 'info',
         file: 'logs/api.log' 
       }
   })
