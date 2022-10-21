@@ -6,7 +6,7 @@ const fastify = require('fastify')({
   })
 
 //set the default port
-let portnum = 3000
+let portnum = 4000
 
 fastify.get('/', (req, res) => {
     res.send('Hello World!!');
